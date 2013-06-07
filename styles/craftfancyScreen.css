@@ -1,0 +1,360 @@
+		/* Example Fonts - Gladiator, Alpine, PikesPeakZero, Liberation, GentiumAlt */
+		@import url(http://www.princexml.com/fonts/bbos/gladiator/index.css) all;
+		@import url(http://www.princexml.com/fonts/sil/index.css) all;
+		@import url(http://www.princexml.com/fonts/sentinel/index.css) all;
+		@import url(http://www.princexml.com/fonts/steffmann/index.css) all;
+		@font-face { font-family: Liberation;
+					src: url(http://www.princexml.com/fonts/liberation/LiberationSans-Regular.ttf) format("truetype");
+		}
+
+
+
+		/* Base font text-scaling */
+		html, body, form, fieldset {
+			font: 100%/1.25 serif;
+			color: black;
+		}
+		/* Form field text-scaling */
+		input, select, textarea {
+			font-size: 100%;
+		}
+		/* General div and body settings */
+		div {
+			/* border: 1px dotted gray; */
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			float: left; /* Prevent elements (h1, h2, ... p) from extending out of container divs */
+			margin: 0 2%; /* Slightly smaller left margin to balance content in IE browser */
+		}
+		p {
+			font-family: Liberation;
+		}
+
+		div#container
+		{
+			margin: 1em auto;
+			width: 97%;  /* 650px; */
+			height: 100%; /* 100px; */
+			text-align: left;
+/*			background-color: red; */
+			position: relative;
+			border: 1px solid black;
+			padding: 1em 0em;
+		}
+		header
+		{
+			/* width: 100%; */
+			height: 10%;
+/*			background-color: fuchsia; */
+			position: relative;
+		}
+		header > div#skipmenu
+		{
+			/* width: 100%; */
+			/* height: 10%; */
+			position: relative;
+		}
+		div#skipmenu a {
+			font-size: xx-small;
+			float: right;
+		}
+
+		div#navSection01
+		{ /* secondary navigation colors */
+			/* width: 100%; */
+			height: 10%;
+/*			background-color: orange; */
+			position: relative;
+		}
+		div#contents
+		{
+			height: 60%;
+/*			background-color: aqua; */
+			position: relative;
+/*			border-bottom: 1px dotted black; */
+		}
+		div#panel01
+		{
+			height: 100%;
+			width: 50%;
+/*			background-color: grey; */
+			position: relative;
+			float: left;
+			margin: 1em auto;
+		}
+		div#storeMsg
+		{
+			height: 10%;
+			width: 100%;
+/*			background-color: pink; */
+			padding: 1em 0em;
+			position: relative;
+		}
+		div#storeMsg h2 {
+			margin: 0% 5%; /* Center block elements */
+			margin-top: 1em;
+			line-height: 1.25;
+			font-family: Alpine;
+		}
+		div#storeMsg h2.top {
+			margin-top: -.5em;
+			font-family: PykesPeakZero;
+		}
+		div#storeMsg p {
+			margin: 0% 5%; /* Center block elements */
+/*			background-color: orange; */
+			font-size: 90%;
+			color: darkslategrey;
+		}
+
+		div#storeInfo
+		{
+			height: 10%;
+			width: 100%;
+/*			background-color: lime; */
+			position: relative;
+			font-size: 90%;
+		}
+		div#storeInfo h3 {
+			margin: 0% 5%; /* Center block elements */
+			background-color: #CBE377;
+			text-align: center;
+			line-height: 1;
+			border-radius: 25px;
+			font-family: Liberation;
+		}
+		div#storeInfo p {
+			margin: 0% 5%; /* Center block elements */
+/*			background-color: orange; */
+			text-align: center;
+			font-size: 90%;
+		}
+
+		div#panel02
+		{
+			height: 100%;
+			width: 47%;
+/*			background-color: white; */
+			position: relative;
+			float: left;
+			margin: 1em auto;
+		}
+		div#picBox
+		{
+			height: 10%;
+			width: 100%;
+/*			background-color: yellow; */
+			border: 1px solid black;
+			padding: 1em 0em;
+			position: relative;
+			background: linear-gradient(to right, white, greenyellow);
+		}
+		div#picBox p {
+			margin: 0% 5%; /* Center block elements */
+/*			background-color: lime; */
+			font-size: 90%;
+		}
+		div#navBox
+		{
+			height: 10%;
+			width: 100%;
+			background-color: greenyellow;
+			border: 1px solid black;
+			padding: 1em 0em;
+			position: relative;
+			font-family: Geneva, Arial, Helvetica, san-serif;
+			font-size: 90%;
+			background: linear-gradient(to right, white, greenyellow);
+		}
+		div#navBox > ul {
+			float: right;
+			text-align: right;
+			margin: 0% 5% 1% 5%;
+			list-style: none outside none;
+/*			background-color: lime; */
+		}
+		div#navBox > ul > li {
+			float: right;
+			margin-right: 1%;
+		}
+
+		div#navMain
+		{
+			clear: both;
+			height: 10%;
+/*			background-color: yellow; */
+			position: relative;
+		}
+		footer
+		{
+			clear: both;
+			height: 10%;
+/*			background-color: lime; */
+			position: relative;
+		}
+		div#logo
+		{
+			color: black;
+/*			background-color: green; */
+			position: relative;
+			clear: both;
+		}
+		div#logo h1 {
+/*			font-size: 200%; */
+			font: normal normal 600 400%/1.25 Gladiator, GentiumAlt, monospace;
+			letter-spacing: .05em;
+			margin: 0em 0em -.25em 0em;
+			text-align: center;
+		}
+		div#logo h1 > img {
+			/* vertical-align: middle; Align image with bottom of line box */
+			width: .43em; /* Scalable em size */
+			height: .68em; /* Scalable em size */
+		}
+		div#logo h4 {
+			font: normal normal normal 100%/1.25 monospace;
+			letter-spacing: .39em;
+			word-spacing: .50em;
+/*			background-color: yellow; */
+			text-align: center;
+			color: darkolivegreen;
+		}
+
+
+		.navSection01Font { /* navigation section font */
+			font-family: Geneva, Arial, Helvetica, san-serif;
+		}
+
+		div.navSection01Center {
+			width: 70%; /* Adjustable width */
+			/* width: 21.5em; Width Fixed to font size */
+			margin: 1em auto;
+			background-color: gainsboro;
+			text-align: center;
+			padding: .25em 0em;
+			letter-spacing: .05em;
+			border-radius: 25px;
+		}
+		div.navSection01Center img {
+			/* vertical-align: bottom; Align image with bottom of line box */
+			/* vertical-align: middle; Align image with bottom of line box */
+			width: .70em; /* Scalable em size */
+			height: .60em; /* Scalable em size */
+/*			border: thin double blue; */
+			margin: 0em -.25em;
+		}
+
+		div#navSection01 a {
+			display: inline; /* Highlights entire cell */
+			padding: .25em;
+		}
+		div#navSection01 a:link {
+			color: olive;
+			text-decoration: none;
+		}
+		div#navSection01 a:visited {
+			color: olive;
+			text-decoration: none;
+		}
+		div#navSection01 a:hover {
+			color: indigo;
+			text-decoration: underline;
+		}
+		div#navSection01 a:active {
+			color: black;
+			text-decoration: none;
+		}
+
+		div.navMainCenter {
+			width: 100%; /* Adjustable width */
+			text-align: center;
+			font-family: Geneva, Arial, Helvetica, san-serif;
+			font-size: 90%;
+			margin-top: 1%;
+		}
+
+		div#navMain a {
+			display: inline; /* Highlights entire cell */
+			padding: 0em .5em;
+			white-space: nowrap;
+		}
+		div#navMain a:link {
+			color: cornflowerblue;
+			text-decoration: none;
+		}
+		div#navMain a:visited {
+			color: cornflowerblue;
+			text-decoration: none;
+		}
+		div#navMain a:hover {
+			color: indigo;
+			text-decoration: underline;
+		}
+		div#navMain a:active {
+			color: black;
+			text-decoration: none;
+		}
+
+		div#navMain a.rtborder {
+			border-right: 1px solid black;
+		}
+		div#navMain a.ltmargin {
+			margin-left: -.25em;
+		}
+
+		div#navBox a {
+		   /* display: block; Highlights entire cell */
+		   padding: 0em .5em;
+		   white-space: nowrap;
+		   float: right;
+		}
+		div#navBox a:link {
+			color: darkblue;
+			text-decoration: none;
+		}
+		div#navBox a:visited {
+			color: darkblue;
+			text-decoration: none;
+		}
+		div#navBox a:hover {
+			color: sienna;
+			text-decoration: underline;
+		}
+		div#navBox a:active {
+			color: black;
+			text-decoration: none;
+		}
+
+		form#mailList {
+			clear: both;
+			margin: 0% 20%;
+		}
+/*
+		span.cap-g {** Bad Moz! p:first-letter.class **
+			float: left;
+			font-size: 1.7em;
+			padding: 0 0.15em;
+			margin: 0em 0.15em 0 0;
+			background: #90ee90;
+			border: 3px outset #2e8b57;
+		}
+*/
+
+		/* Prevents partial container box collapse in FF */
+		.emptyClearNoPadding {
+			clear: both;
+		}
+
+		div.hr {
+			height: .125em;
+			color: #CBE377;
+			background-color: #CBE377;
+			margin: 0% 2.5% 1% 2.5%;
+		}
+		div.hr hr {
+			display: none;
+			width: 80%;
+			margin: 0% auto;
+		}
